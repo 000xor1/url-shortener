@@ -12,7 +12,6 @@ DATABASE_2 = {}
 
 
 def long2short(idx, base62=BASE62):
-
     arr = []
 
     if idx  == 0:
@@ -28,7 +27,6 @@ def long2short(idx, base62=BASE62):
 
 
 def short2long(url):
-
     if url in DATABASE_2:
         result = DATABASE_2[url]
 
@@ -39,7 +37,6 @@ def short2long(url):
 
 
 def main():
-
     longUrls = ["http://000xor1.github.com",
                 "http://twitter.com/000xor1",
                 "http://kakao.com",
